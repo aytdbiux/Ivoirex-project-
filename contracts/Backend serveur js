@@ -1,0 +1,24 @@
+const express = require("express");
+const mongoose = require("mongoose");
+const dotenv = require("dotenv");
+const cors = require("cors");
+
+dotenv.config();
+const app = express();
+app.use(cors());
+app.use(express.json());
+
+// Routes
+const assets = require("./routes/assets");
+const identity = require("./routes/identity");
+const investment = require("./routes/investment");
+
+app.use("/api/assets", assets);
+app.use("/api/identity", identity);
+app.use("/api/investments", investment);
+
+// DB
+require("./config/db");
+
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

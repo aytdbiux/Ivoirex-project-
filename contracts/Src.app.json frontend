@@ -1,0 +1,21 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Dashboard from "./pages/Dashboard";
+import TokenizeAsset from "./pages/TokenizeAsset";
+import KYC from "./pages/KYC";
+
+function App() {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/tokenize" element={<TokenizeAsset />} />
+        <Route path="/kyc" element={<KYC />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;

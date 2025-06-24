@@ -1,0 +1,40 @@
+#![no_std]
+use soroban_sdk::{contractimpl, contracttype, Env, Symbol, Address, Vec};
+
+pub struct AssetTokenContract;
+
+#[contracttype]
+#[derive(Clone)]
+pub struct Asset {
+    id: u32,
+    name: Symbol,
+    owner: Address,
+    value: i128,
+    metadata: Symbol,
+}
+
+#[contractimpl]
+impl AssetTokenContract {
+    pub fn init(env: Env) {
+        env.storage().set(Symbol::new("counter"), 0u32);
+    }
+
+    pub fn mint_asset(env: Env, name: Symbol, owner: Address, value: i128, metadata: Symbol) -> u32 {
+        let mut counter: u32 = env.storage().get_unchecked(Symbol::new("counter")).unwrap();
+        counter += 1;
+        let asset = Asset { id: counter, name, owner: owner.clone(), value, metadata };
+        env.storage().set(counter, asset);
+        env.storage().set(Symbol::new("counter"), counter);
+        counter
+    }
+
+    pub fn get_asset(env: Env, id: u32) -> Option<Asset> {
+        env.storage().get(id)
+    }
+
+    pub fn transfer_asset(env: Env, id: u32, new_owner: Address) {
+        let mut asset: Asset = env.storage().get_unchecked(id).unwrap();
+        asset.owner = new_owner;
+        env.storage().set(id, asset);
+    }
+                      }

@@ -1,0 +1,92 @@
+# IVOIREX 🌍
+
+**Ivoirex** is a decentralized platform that leverages blockchain technology and sustainable finance to foster economic development, transparency, and regulatory compliance in Côte d'Ivoire and across Africa.
+
+## 🌟 Mission
+
+To empower local businesses and communities through secure digital identity, tokenization of real-world assets (RWAs), and traceable financing solutions aligned with global sustainability goals.
+
+---
+
+## 🚀 Features
+
+- ✅ **Real-World Asset Tokenization**  
+  Tokenize land, commodities, and invoices for transparent ownership and liquidity.
+
+- 🔐 **Secure Identity & Compliance**  
+  GDPR-aligned digital identity system integrating EU 2024 law and local KYC/AML.
+
+- 🌱 **Sustainable Impact Financing**  
+  Aligns with the UN's Sustainable Development Goals (SDGs).
+
+- 🔁 **DeFi & Investment Integration**  
+  Users can invest in verified African opportunities via smart contracts.
+
+---
+
+## 🧩 Architecture
+
+- **Smart Contracts**: Ethereum (or L2) for asset tokenization and transactions.
+- **Backend**: Node.js, Express, IPFS for file storage.
+- **Frontend**: React.js or no-code alternatives for MVP.
+- **Oracles**: Chainlink or custom APIs for local data (land registry, business credit score, etc.)
+
+---
+
+## 📊 Project Alignment
+
+### 🔍 SWOT Analysis
+
+**Strengths**
+- First-mover in African RWA tokenization with regulatory focus  
+**Weaknesses**
+- Infrastructure and internet access challenges in rural areas  
+**Opportunities**
+- Untapped markets, strong diaspora investment interest  
+**Threats**
+- Regulatory delays, low blockchain adoption  
+
+### 🌍 SDG Objectives Targeted
+
+- Goal 8: Decent Work and Economic Growth  
+- Goal 9: Industry, Innovation and Infrastructure  
+- Goal 16: Peace, Justice and Strong Institutions  
+
+---
+
+## 📜 Legal & Compliance
+
+- Aligned with **EU 2024 Markets in Crypto-Assets Regulation (MiCA)**  
+- Local compliance framework in Côte d’Ivoire is under integration  
+- AML/KYC and land registry due diligence included in all token operations  
+
+---
+
+## 🤝 Partners & Contributors
+
+- Wellblock Conseils CI  
+- Local land registrars and financial cooperatives (under negotiation)  
+- Seeking partners in sustainability, legal tech, and DeFi protocols  
+
+---
+
+## 🛠️ Roadmap
+
+| Quarter | Milestone |
+|--------|-----------|
+| Q2 2025 | MVP launch (tokenization + dashboard) |
+| Q3 2025 | ID system & SDG impact scoring |
+| Q4 2025 | Marketplace + investor onboarding |
+| 2026    | Regional expansion (WAEMU zone) |
+
+---
+
+## 📫 Contact
+
+- 📧 ivoirex01@gmail.com  
+- 🌐 https://preview--ivoirex-connect.lovable.app/
+- 🛠 Maintained by https://github.com/aytdbiux/Ivoirex-project-
+
+---
+
+> *“Empowering Africa through transparent digital finance.”*

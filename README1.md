@@ -24,16 +24,13 @@ Ease access to global markets
 Reduction of transaction costs
 Thought platform for African realities
 
-##roadmap
-
-May 2025 : Beta Launch
-July 2025 : Official Launch
-
 Join us
 
 Take part in the revolution in the tokenization of natural resources in Africa!
 
-Website : https://ivoirex-digital-futures-poc.lovable.app/ Contact : ivoirex01@gmail.com
+Website : https://ivoirex-digital-futures-poc.lovable.app/ 
+
+Contact : ivoirex01@gmail.com
 
  
 
